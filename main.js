@@ -32,7 +32,7 @@ for (let index = 0; index < array.length; index++) {
 onload = function(){
       this.alert("THE WEBSITE ( FX +_+ GAMES ) MADE BY PIERRE AND BASIL (WELCOME ALL)")
 }
-/*
+*/
 
 onload = function(){
       this.alert("Welcome")
