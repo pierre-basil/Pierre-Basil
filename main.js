@@ -10,6 +10,10 @@ for (let index = 0; index < array.length; index++) {
 			sessionStorage.removeItem('Log');
 	
 }		window.location.href = 'login.html';
+	}else if(email == 'ez' && password == 'pz'){
+		sessionStorage.removeItem('Log');
+		alert("Welcome !!")
+		window.location.href = 'login.html';
 	}else if(email == 'pierre-admin@gmail.com' && password == '123'){
 		sessionStorage.removeItem('Log');
 		alert("Welcome !!")
