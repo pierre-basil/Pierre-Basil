@@ -37,18 +37,14 @@ onload = function(){
 onload = function(){
       this.alert("test")
 }
-
-// وظيفة تضيف #ixl.com بعد عنوان الرابط
 function addHashToUrl() {
   if (!window.location.hash.includes("ixl.com")) {
     window.location.hash = "ixl.com";
   }
 }
 
-// تنفيذ الوظيفة عند تحميل الصفحة
 addHashToUrl();
 
-// مراقبة تغيير الروابط الداخلية
 document.addEventListener("click", function (event) {
   if (event.target.tagName === "A" && event.target.href.includes(window.location.origin)) {
     event.preventDefault();
