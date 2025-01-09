@@ -46,6 +46,11 @@
     <div class="wave"></div>
     <div class="wave"></div>
   </div>
+  <script>
+    if (window.location.pathname === "/index.html") {
+    window.history.replaceState(null, null, "/");
+    }
+  </script>
   <script src="main.js"></script>
 </body>
 </html>
