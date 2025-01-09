@@ -35,5 +35,5 @@ onload = function(){
 */
 
 onload = function(){
-      this.alert("Welcome")
+      this.alert("test")
 }
